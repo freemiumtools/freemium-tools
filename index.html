@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreemiumTools - Free & Premium Online Utilities</title>
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="FreemiumTools - Free & Premium Online Utilities">
+    <meta name="description" content="A collection of free and premium online tools to help you with your daily tasks. No registration required for most tools.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freemiumtools.github.io/freemium-tools/">
+    <meta property="og:title" content="FreemiumTools - Free & Premium Online Utilities">
+    <meta property="og:description" content="A collection of free and premium online tools to help you with your daily tasks. No registration required for most tools.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1611329857570-f02f340e7378?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://freemiumtools.github.io/freemium-tools/">
+    <meta property="twitter:title" content="FreemiumTools - Free & Premium Online Utilities">
+    <meta property="twitter:description" content="A collection of free and premium online tools to help you with your daily tasks. No registration required for most tools.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1611329857570-f02f340e7378?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FreemiumTools",
+      "url": "https://freemiumtools.github.io/freemium-tools/",
+      "description": "A collection of free and premium online tools to help you with your daily tasks.",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "hasPart": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Flames Calculator",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "Web",
+          "description": "A fun tool that predicts the relationship between two people based on their names using the FLAMES method.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "potentialAction": {
+            "@type": "UseAction",
+            "target": "https://freemiumtools.com/tool/mathematics/flames-calculator"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
