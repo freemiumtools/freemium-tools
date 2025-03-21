@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ToolPage from './pages/ToolPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -171,6 +171,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy categories={categories} />} />
         <Route path="/terms-of-service" element={<TermsOfService categories={categories} />} />
         <Route path="/cookie-policy" element={<CookiePolicy categories={categories} />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <CookieConsent />
     </Router>

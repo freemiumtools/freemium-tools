@@ -7,5 +7,10 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/freemium-tools/', // Base URL for GitHub Pages
+  base: './', // Change to relative path
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true,
+  }
 });
